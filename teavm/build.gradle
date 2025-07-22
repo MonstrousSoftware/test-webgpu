@@ -9,7 +9,8 @@ gretty {
 }
 
 sourceSets.main.resources.srcDirs += [ rootProject.file('assets').path ]
-project.ext.mainClassName = "com.monstrous.test.teavm.TeaVMBuilder"
+//project.ext.mainClassName = "com.monstrous.test.teavm.TeaVMBuilder"
+project.ext.mainClassName = "com.monstrous.test.teavm.BuildTeaVM"
 eclipse.project.name = appName + "-teavm"
 
 // This must be at least 11, and no higher than the JDK version this project is built with.
@@ -27,6 +28,7 @@ dependencies {
   implementation "org.teavm:teavm-jso:$teaVMVersion"
   implementation "org.teavm:teavm-tooling:$teaVMVersion"
   implementation project(':core')
+  implementation 'io.github.monstroussoftware.gdx-webgpu:gdx-teavm-webgpu:-SNAPSHOT'
 
 }
 

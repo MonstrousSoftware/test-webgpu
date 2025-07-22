@@ -7,6 +7,5 @@ dependencies {
   if(enableGraalNative == 'true') {
     implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"
   }
-  implementation 'com.github.MonstrousSoftware.gdx-webgpu:gdx-webgpu:-SNAPSHOT'
-  //implementation 'com.monstrous.gdx-webgpu:gdx-webgpu:0.1'
+  implementation 'io.github.monstroussoftware.gdx-webgpu:gdx-webgpu:-SNAPSHOT'
 }
