@@ -1,5 +1,6 @@
 package com.monstrous.test.lwjgl3;
 
+
 import com.monstrous.gdx.webgpu.backends.desktop.WgDesktopApplication;
 import com.monstrous.gdx.webgpu.backends.desktop.WgDesktopApplicationConfiguration;
 import com.monstrous.test.Main;

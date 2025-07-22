@@ -2,6 +2,7 @@ package com.monstrous.test.teavm;
 
 import com.github.xpenatan.gdx.backends.teavm.TeaApplicationConfiguration;
 import com.monstrous.test.Main;
+import com.monstrous.gdx.webgpu.backends.teavm.WgTeaApplication;
 
 
 
